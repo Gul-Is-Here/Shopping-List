@@ -9,7 +9,7 @@ class GroceryList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final controller = Get.put(ShoppingListController());
+    final controller = Get.put(ItemController());
     return Scaffold(
       appBar: AppBar(
         title: const Text('Your Groceries'),
@@ -18,7 +18,7 @@ class GroceryList extends StatelessWidget {
               onPressed: () {
                 controller.addNewItem(context);
               },
-              icon: Icon(Icons.add_alarm_sharp))
+              icon: const Icon(Icons.add))
         ],
       ),
       body: ListView.builder(

@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:shpping_list/data/categories.dart';
 import 'package:shpping_list/model/category.dart';
 
-class NewItemScreen extends StatelessWidget {
-  const NewItemScreen({super.key});
+class NewItem extends StatelessWidget {
+  const NewItem({super.key});
 
   @override
   Widget build(BuildContext context) {
